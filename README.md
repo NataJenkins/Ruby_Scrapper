@@ -4,8 +4,6 @@
 
 > Project: Capstone #2.
 
-![screenshot](./imgs/image.png)
-
 
 ## Built With
 
