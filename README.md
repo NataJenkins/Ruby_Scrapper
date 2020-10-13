@@ -12,6 +12,14 @@
 - Ruby
 - nokogiri
 - httparty
+- rspec
+- rubocop
+
+## Description
+
+- This is a web scraper that grabs a page with different series and picks the last episodes and displays them in an HTML format.
+- It was created in the necessity that I expend to much time trying to search for one episode with all the adds
+- I like dark mode the page doesn't support it, so I create a new page with only the necessary and in dark mode
 
 ## Getting Started
 

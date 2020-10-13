@@ -3,19 +3,19 @@ require 'nokogiri'
 require 'httparty'
 require './lib/logic'
 
-def list(lol2, file)
+def list(img_file, file)
   test_value = true
-  x = 0
+  counter = 0
   while test_value == true
     file.puts("<div style='margin-left: 100px; margin-bottom: 100px;'>")
-    list = lol2[x].values
+    list = img_file[counter].values
     file.puts("<h3>#{list[1]}</h3>")
     file.puts("<img src='https://www3.animeflv.net/#{list[0]}' width='300' height='300'>")
-    x += 1
+    counter += 1
     file.puts('</div>')
-    test_value = false if lol2[x].nil?
+    test_value = false if img_file[counter].nil?
   end
-  x
+  counter
 end
 
 url = 'https://www3.animeflv.net/'
