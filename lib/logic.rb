@@ -1,4 +1,3 @@
-
 def file(url)
   file = File.new('index.html', 'w')
   page = HTTParty.get(url)
