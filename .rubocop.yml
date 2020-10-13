@@ -22,6 +22,8 @@ Metrics/PerceivedComplexity:
   Max: 300
 Style/Documentation:
   Enabled: false
+Style/MixinUsage:
+  Enabled: false
 Style/ClassVars:
   Enabled: false
 Style/GlobalVars:

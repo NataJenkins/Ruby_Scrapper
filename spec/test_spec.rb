@@ -5,7 +5,6 @@ main = file('https://www3.animeflv.net/')
 lol = list(main[0], main[1])
 
 describe 'checks for the web scaper project' do
-
   describe 'check if list return a integer and if that integer is 20' do
     expect(lol.class).to eq Integer
     expect(lol).to eq 20
