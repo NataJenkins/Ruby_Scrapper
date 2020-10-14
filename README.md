@@ -20,6 +20,7 @@
 - This is a web scraper that grabs a page with different series and picks the last episodes and displays them in an HTML format.
 - It was created in the necessity that I expend to much time trying to search for one episode with all the adds
 - I like dark mode the page doesn't support it, so I create a new page with only the necessary and in dark mode
+- The page that will be scraped is [scraped](https://www3.animeflv.net/)
 
 ## Getting Started
 
@@ -32,6 +33,7 @@ have ruby and the following gems nokogiri and httparty
 "``` git clone https://github.com/Nexch/Capstone.git ```"
 Go to the directory and run ruby like this if you are in linux "``bin/scraper.rb``"
 if you are in windows you will have to run it like this in your cmd"``ruby bin/scraper.rb``"
+To run the test just use "``rspec``" in the root folder
 ### Usage
 Open the new file locate in the root directory using your favorite browser
 ## Authors
