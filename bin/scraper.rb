@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 require 'nokogiri'
 require 'httparty'
-require './lib/logic'
+require_relative '../lib/logic'
 
 def list(img_file, file)
   test_value = true
@@ -18,6 +18,10 @@ def list(img_file, file)
   counter
 end
 
+def clean
+  puts "\e[H\e[2J"
+end
+
 url = 'https://www3.animeflv.net/'
 html = file(url)
 html[1].puts('<h1>New Animes</h1>')
@@ -26,3 +30,4 @@ html[1].puts("<div style='display: flex; flex-wrap: wrap'>")
 list(html[0], html[1])
 html[1].puts('</div>')
 html[1].close
+puts "Done now see the index.html file"

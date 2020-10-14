@@ -4,5 +4,6 @@ def file(url)
   response = Nokogiri::HTML(page)
   main_list = response.css('ul.ListEpisodios')
   lol2 = main_list.css('img')
+  clean
   [lol2, file]
 end
