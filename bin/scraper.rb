@@ -30,4 +30,4 @@ html[1].puts("<div style='display: flex; flex-wrap: wrap'>")
 list(html[0], html[1])
 html[1].puts('</div>')
 html[1].close
-puts "Done now see the index.html file"
+puts 'Done now see the index.html file'

@@ -17,7 +17,7 @@ describe 'checks for the web scaper project' do
     expect(main[0].class).to be Nokogiri::XML::NodeSet
   end
 
-  it 'check if the seccond return value of file has the class of file' do
+  it 'check if the seccond return value of file method has the class of file' do
     expect(main[1].class).to be File
   end
 end
