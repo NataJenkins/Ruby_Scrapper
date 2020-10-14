@@ -4,6 +4,7 @@
 
 > Project: Capstone #2.
 
+![screenshot](./pics/shot2.jpg)
 
 ## Built With
 
@@ -36,6 +37,11 @@ if you are in windows you will have to run it like this in your cmd"``ruby bin/s
 To run the test just use "``rspec``" in the root folder
 ### Usage
 Open the new file locate in the root directory using your favorite browser
+
+### Run test
+use the installed gem rspec
+![screenshot](./pics/rspec.jpg)
+
 ## Authors
 👤 **Mauricio Tabilo**
 

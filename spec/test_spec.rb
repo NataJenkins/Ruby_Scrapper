@@ -1,7 +1,8 @@
 # spec/test_spec.rb
 require_relative '../bin/scraper'
-main = file('https://www3.animeflv.net/')
-lol = list(main[0], main[1])
+file_class = Logic.new
+main = file_class.file('https://www3.animeflv.net/')
+lol = file_class.list(main[0], main[1])
 
 describe 'checks for the web scaper project' do
   it 'check if list return a integer and if that integer is 20' do
